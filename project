@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<title>iendtity v/하선</title>                                      <!--제목-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.6">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.xGqHFdxlILpm2SUO5GonEwAAAA?w=138&h=159&c=7&o=5&dpr=1.12&pid=1.7">  
+<style>
+@font-face {
+    font-family: 'Wolin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSSaemaul-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+body, html {
+    height: 100%;
+    color: rgb(70, 67, 67);
+    line-height: 2;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bgimg-1 {
+    background-image: url("https://media.pocketgamer.com/artwork/na-29696-1621301030/IDV-Hunter-Header.jpg");
+    min-height: 90%;
+}
+
+.bgimg-2 {
+    background-image: url("https://i.ytimg.com/vi/v7vbZcf6aLA/maxresdefault.jpg");
+    min-height: 350px;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+.w3-padding-large {width : 130px;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 80%) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background: rgb(255, 255, 255) url('data:image/jpeg;base64x')no-repeat fixed 70% 70%/100% 100%;
+    }
+}
+</style>
+
+
+<!-- Navbar (sit on top) -->
+
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>                                                               <!--메뉴-->
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#link" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> LINK</a>
+    <a href="#일라이" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> 일라이</a>
+    <a href="#캠벨" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> 노튼</a>    
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> 게임사</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->                                     <!--메뉴바-->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#일라이" class="w3-bar-item w3-button" onclick="toggleFunction()">일라이</a>    
+    <a href="#캠벨" class="w3-bar-item w3-button" onclick="toggleFunction()">노튼</a>    
+    <a href="#link" class="w3-bar-item w3-button" onclick="toggleFunction()">LINK</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+                                                                       <!--시작하는 부분-->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large  w3-red w3-large w3-wide w3-animate-opacity">
+      identity5 <span class="w3-hide-normal w3-black"> character profile </span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->                                     <!--프로필 이미지-->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">𒐕 踏入庄园的人，挣扎着走出去 𒐕 Those who set foot in the manor, struggle to get out 𒐕</h3>
+  <p class="w3-center"><em>제5인격</em></p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>identity v</b></p><br><!-- 6. 프로필 이미지 -->
+      <img src="https://pbs.twimg.com/media/E9njImnVgAUoeEq.jpg"
+      class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+                                                                       <!-- 게임소개 -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p><identity v> </p>
+        <P>                                            ⏱
+            | 중국- 2018년 4월 2일 | 글로벌- 2018년 7월 5일 | 한국- 2018년 9월 20일 ~ 2021년 8월 26일</P>
+        <p>🃝 Fear Never Springs From the known.</p>
+          <p> 캐릭터 디자인은 코렐라인을, 게임 초기 방식은 데바데를 떠오르게 하는 게임.</p>
+          <p>생존자 4인 vs 감시자 1인 으로 팀을 이루어 게임에 참여한다.</p>
+          <P>타로모드,연합대전,블랙잭etc... 여러가지 게임모드도 있다. </P>
+          <P>한국서버는 올해 8월 26일에 서버 운영을 종료했다.</P>
+        </div>
+  </div>
+                                                                       <!--그래프랑 캐릭터설명-->
+  <p class="w3-large w3-center w3-padding-16">공포</p>
+  <p class="w3-wide">뉴비</p>
+  <div class="w3-light-red">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">300%</div>
+  </div>
+
+  <p class="w3-wide">3년차</p>
+  <div class="w3-light-gray">
+    <div class="w3-container w3-padding-small w3-dark-red w3-center" style="width:1%">-444%</div>
+  </div>
+
+</div>
+
+
+<div>
+    <p class="w3-large w3-center w3-padding-16">최애캐 소개</p> 
+    
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+ 
+</div>
+
+
+
+<div><p class="w3-large w3-center w3-padding-16"></p></div>
+<div><p class="w3-large w3-center w3-padding-16"></p></div>
+<div class="w3-content w3-container w3-padding-64" id="일라이"></div>
+<p class="w3-large w3-center w3-padding-16">1.일라이 클락 - 선지자</p> </div>
+<div><p class="w3-large w3-center w3-padding-16"></p></div>
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p><일라이 클락> </p>
+        <P> ⚚</P>
+        <p>story:일라이가 숲에서 데려온 다친 부엉이는 누군가의 환생이었다.
+           이를 계기로 일라이는 선지자가 되어 미래를 예지할수있는 능력을 얻었지만, 
+           그 내용을 누구에게도 발설하지 말라는 금기를 어겨 예지 능력을 잃었다. 
+           전설의 허점을 발견해냈고,일라이는 다시 예지능력을 얻었으며,새로운 예지는 일라이에게 장원으로 떠나라는 계시를 남겼다. </P>
+        <p>♟</p>
+        <p>능력:일라이는 부엉이를 사용해 다른 생존자와 자신에게 일정 기간 보호할 수 있다.</p>
+          <p>일라이가 생존자로 게임에 참여하면, 감시자 입장에서는 3번이나 생존자를 때려야 의자에 앉게 만들 수 있어,게임이 조금 어려워진다.</p>
+          <p>일라이는 장원 내 최고 미남이라 인기가 많다.</p>
+          <P>실수로 공개 된 머리는 사실 대머리였지만, 사람들은 이를 부정한다. </P>
+        </div>
+  </div>
+
+  <div>
+    <img src="https://pbs.twimg.com/media/EIIPMVQU4AIhD92.jpg:small"
+        class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+  </div>
+</div>
+
+
+<div><p class="w3-large w3-center w3-padding-16"></p></div>
+<div><p class="w3-large w3-center w3-padding-16"></p></div>
+
+
+<div class="w3-content w3-container w3-padding-64" id="캠벨"></div>
+  <div><p class="w3-large w3-center w3-padding-16">2. 노튼 캠벨-탐사원</p> </div>
+  <div><p class="w3-large w3-center w3-padding-16"></p></div>
+  <div class="bgimg-3 w3-display-container w3-opacity-min">
+    
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <div>
+        
+        
+        <p>☠</p>
+              <p>생일_3월 19일 | 별자리_물고기자리 | 좋아하는 것_귀금속,천연보석 | 싫어하는 것_ 어둡고 밀폐된 공간
+              </p>
+              <p>🃏</p>
+              <p>story:한 광산에서 일하던 노튼은 성실하고 착한 사람이었다. 가장 마지막에 광산에서 나가는 것도 항상 노튼이었다. 물론 신비한 운석자석을 얻기 위해서 착한척 행동 한 것일 뿐이었다. 자석을 얻은 노튼은 더 많은 돈을 얻기 위해 상금을 걸고 게임을 진행하는 한 장원으로 떠나게 된다.</p></div>
+              <p>능력: 노튼은 자신의 자석을 사용해 생존자,감시자를 밀어내거나 당겨 기절시킨다.</p>
+              <p>의의로 팬층이 많으며, 광산 폭발 당시의 화상자국이 남아있다.</p>
+        
+      
+      </div>
+        </div>
+  </div>
+  <div>
+    <img src="https://i.pinimg.com/236x/d0/02/4e/d0024efcdca82b89a8dd89f5f51585d8.jpg"
+        class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+  </div>
+</div>
+
+<div>
+  <div><p class="w3-large w3-center w3-padding-16"></p></div>
+  <div><p class="w3-large w3-center w3-padding-16"></p></div>
+  <div><p class="w3-large w3-center w3-padding-16"></p></div>
+  <p class="w3-large w3-center w3-padding-16">노튼 자석 사용법</p>
+  <div><p class="w3-large w3-center w3-padding-16"></p></div>
+
+  <img src="https://i.pinimg.com/564x/0b/3a/eb/0b3aeb1ae5189650f34de0c60994d8e5.jpg"
+      class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="480" height="200">
+      <img src="https://i.pinimg.com/564x/43/f2/14/43f214f4dba1f84aac07450f1f3db895.jpg"
+      class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="480" height="200">
+      <img src="https://i.pinimg.com/564x/15/8e/ee/158eeedfb2c17cf5f9297e2068cd031d.jpg"
+      class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="480" height="200">
+      <p class="w3-center">가까워진 감시자와 멀어지기, 자진해서 전철에 부딫히기,강제로 탈출시키기 등등..</p>
+</div>
+
+
+    
+    
+<!-- Container (link Section) -->
+                                                                        <!-- 링크모음-->
+<div class="w3-content w3-container w3-padding-64" id="link">
+  <div><p class="w3-large w3-center w3-padding-16"></p></div>
+  <div><p class="w3-large w3-center w3-padding-16"></p></div>
+  <div><p class="w3-large w3-center w3-padding-16"></p></div> 
+  <h3 class="w3-center">LINK </h3>
+  <p class="w3-center"><em>링크<br> </em></p><br>
+
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+      <a href="https://www.youtube.com/channel/UCKcYqk0hDDbgHpmZVQWjDcQ" target="_blank"><button class="w3-button w3-padding-large w3-light-red" style="margin-top:64px"/a>유튜브</button></a>
+    <a href="https://cafe.naver.com/identity5" target="_blank"><button class="w3-button w3-padding-large w3-light-red" style="margin-top:64px">한국 팬카페</button></a>
+    <a href="https://play.google.com/store/apps/details?id=kr.xdg.and.id5&hl=ko&gl=US" target="_blank"><button class="w3-button w3-padding-large w3-light-red" style="margin-top:64px">다운로드</button></a>
+    <a href="https://twitter.com/IdentityVJP" target="_blank"><button class="w3-button w3-padding-large w3-light-red" style="margin-top:64px">트위터</button></a>
+  </div>
+
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Container (Contact Section) -->
+                                                                                <!--주소 글로쓴부분-->
+<div><p class="w3-large w3-center w3-padding-16"></p></div>
+ <div><p class="w3-large w3-center w3-padding-16"></p></div>
+  <div><p class="w3-large w3-center w3-padding-16"></p></div>
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">게임사</h3>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:300px;"></div>
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 중국 Guangdong Province, Guangzhou, Tianhe District, 建华路25号2楼<br>
+      </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<!-- Add Google Maps -->                                                        <!--구글맵-->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(23.12400528046823, 113.37191046170729);
+  var mapOptions= {
+    center:myCenter,
+    zoom:15, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcPf9E3ib0x4VS321Hm6Pz4pSxLTzOvrY&callback=myMap"></script>
+
+</body>
+</html>
